@@ -11,7 +11,7 @@ export default function Index() {
   return (
       <div className="flex flex-col items-center gap-8 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-lg">
         <img
-          src="https://avatars.githubusercontent.com/u/46421953?s=400&u=1b23f1b6b3b69d51ffb9fb23e3ec7f1683161347&v=4"
+          src="/avatar.png"
           alt="Your Avatar"
           className="w-32 h-32 rounded-full border-4 border-gray-200 dark:border-gray-700"
         />
