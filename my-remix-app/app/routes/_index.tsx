@@ -9,25 +9,19 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="flex h-screen items-center justify-center">
-      <div className="flex flex-col items-center gap-16">
-        <header className="flex flex-col items-center gap-6">          
-          <img
-            src="https://avatars.githubusercontent.com/u/46421953?s=400&u=1b23f1b6b3b69d51ffb9fb23e3ec7f1683161347&v=4"
-            alt="Your Avatar"
-            className="w-32 h-32 rounded-full border-2 border-gray-200 dark:border-gray-700"
-          />
-          <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
-            Welcome to My Portfolio
-          </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-300">
-            エンジニア | Webアプリ開発者 | 学習中のフロントエンド
-          </p>
-        </header>
-        <nav className="flex flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 p-6 dark:border-gray-700">
-          <p className="leading-6 text-gray-700 dark:text-gray-200">
-            Links
-          </p>
+      <div className="flex flex-col items-center gap-8 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-lg">
+        <img
+          src="https://avatars.githubusercontent.com/u/46421953?s=400&u=1b23f1b6b3b69d51ffb9fb23e3ec7f1683161347&v=4"
+          alt="Your Avatar"
+          className="w-32 h-32 rounded-full border-4 border-gray-200 dark:border-gray-700"
+        />
+        <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+          Your Name
+        </h1>
+        <p className="text-sm text-gray-600 dark:text-gray-300 text-center">
+          エンジニア | Webアプリ開発者 | 学習中のフロントエンド
+        </p>
+        <nav className="flex flex-col items-center justify-center gap-4">
           <ul className="flex flex-col gap-2">
             <li>
               <a
@@ -62,7 +56,7 @@ export default function Index() {
             <li>
               <a
                 className="text-blue-700 hover:underline dark:text-blue-500"
-                href="https://note.com/ponpon63/"
+                href="https://note.com/ponpon63"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -72,6 +66,5 @@ export default function Index() {
           </ul>
         </nav>
       </div>
-    </div>
   );
 }
