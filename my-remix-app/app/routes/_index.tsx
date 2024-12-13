@@ -16,10 +16,10 @@ export default function Index() {
           className="w-32 h-32 rounded-full border-4 border-gray-200 dark:border-gray-700"
         />
         <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
-          Your Name
+          I'm DPon
         </h1>
         <p className="text-sm text-gray-600 dark:text-gray-300 text-center">
-          エンジニア | Webアプリ開発者 | 学習中のフロントエンド
+          エンジニア | Webアプリ開発者
         </p>
         <nav className="flex flex-col items-center justify-center gap-4">
           <ul className="flex flex-col gap-2">
@@ -60,7 +60,7 @@ export default function Index() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Note
+                note
               </a>
             </li>
           </ul>
