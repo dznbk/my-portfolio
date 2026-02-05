@@ -14,7 +14,7 @@ const ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative min-h-dvh flex flex-col items-center justify-center overflow-hidden">
       {/* Animated gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 bg-200% animate-gradient" />
 
