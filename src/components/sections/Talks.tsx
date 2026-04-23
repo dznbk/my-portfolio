@@ -14,6 +14,20 @@ interface Talk {
 
 const TALKS: Talk[] = [
   {
+    title: 'TiDBのアーキテクチャから学ぶ分散システム入門 〜MySQL互換のNewSQLは何を解決するのか〜',
+    event: 'PHPカンファレンス小田原2026',
+    date: '2026-04-11',
+    url: 'https://fortee.jp/phpconodawara-2026/proposal/b344b2a9-1d6f-41f9-9c7f-0551033afccd',
+    slideUrl: 'https://speakerdeck.com/dznbk/tidb-architecture-study',
+  },
+  {
+    title: '『自分なんかが…』を超える。プロポーザル提出までの心理的ハードルの外し方',
+    event: 'ワンストップ アウトプット！',
+    date: '2026-04-04',
+    url: 'https://fortee.jp/outputconf-2026/proposal/b8e824fc-9937-4ac0-963e-f3d4cf41df41',
+    slideUrl: 'https://speakerdeck.com/dznbk/proposal-output',
+  },
+  {
     title: 'OpenSearchでレガシーな検索処理の大幅改善をやってやろう',
     event: 'PHPカンファレンス小田原2025',
     date: '2025-04-12',
